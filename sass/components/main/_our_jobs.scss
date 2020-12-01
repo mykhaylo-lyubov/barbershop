@@ -1,0 +1,9 @@
+.our-jobs .heading {
+  font-family: Open Sans;
+  @include font(600, 11px, 1.9, 0.1em);
+  color: $primary-titles-color;
+}
+
+.our-jobs .list {
+  list-style: none;
+}

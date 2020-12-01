@@ -1,0 +1,17 @@
+.button {
+  font-family: "Open Sans";
+  @include font(400, 12px, 1.33, 0.09em);
+  color: $primary-titles-color;
+
+  text-transform: uppercase;
+
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border-radius: 25px;
+  border: 1px solid $button-border-color;
+
+  background-color: transparent;
+}

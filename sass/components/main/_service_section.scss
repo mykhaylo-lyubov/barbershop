@@ -1,0 +1,23 @@
+.service .heading {
+  font-family: Open Sans;
+  @include font(600, 11px, 1.33, 0.1em);
+  color: $services-list-text-color;
+}
+
+.service .title {
+  font-family: Open Sans;
+  @include font(700, 42px, 1.16, 0.05em);
+  color: black;
+}
+
+.service .list {
+  font-family: Open Sans;
+  @include font(400, 14px, 2.1, 0.02em);
+  color: $services-list-text-color;
+
+  list-style: none;
+}
+
+.service {
+  @import "../button";
+}

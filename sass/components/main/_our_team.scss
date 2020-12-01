@@ -1,0 +1,27 @@
+.our-team .heading {
+  font-family: Open Sans;
+  @include font(600, 11px, 1.33, 0.1em);
+  color: $primary-titles-color;
+}
+
+.our-team .title {
+  font-family: Open Sans;
+  @include font(700, 42px, 1.16, 0.05em);
+  color: $primary-titles-color;
+}
+
+.our-team .list {
+  list-style: none;
+}
+
+.our-team .sub-title {
+  font-family: Open Sans;
+  @include font(400, 18px, 1.38, 0.02em);
+  color: $primary-titles-color;
+}
+
+.our-team .sub-description {
+  font-family: Open Sans;
+  @include font(400, 14px, 1.35, 0.02em);
+  color: $barber-kind-title-color;
+}

@@ -1,0 +1,17 @@
+@import "./utilities/common";
+@import "./utilities/mixin";
+@import "./utilities/variables";
+
+// header
+
+@import "./components/header/header_menu";
+@import "./components/header/hero-section";
+
+//main
+
+@import "./components/main/about_us";
+@import "./components/main/service_section";
+@import "./components/main/why_us";
+@import "./components/main/our_team";
+@import "./components/main/our_jobs";
+@import "./components/footer/footer";

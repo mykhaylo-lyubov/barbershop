@@ -1,0 +1,19 @@
+.hero-section .remark {
+  font-family: "Open Sans";
+  @include font(600, 11px, 1.36, 0.1em);
+
+  color: $secondary-titles-color;
+}
+
+.hero-section .title {
+  font-family: "Raleway";
+  @include font(700, 48px, 1.16, 0.05em);
+
+  color: $h1-h2-title-color;
+}
+
+.hero-section .text {
+  font-family: "Open Sans";
+  @include font(400, 16px, 1.6, 0.02em);
+  color: $secondary-titles-color;
+}

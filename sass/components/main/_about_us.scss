@@ -1,0 +1,24 @@
+.about-us {
+  .heading {
+    font-family: Open Sans;
+    @include font(600, 11px, 1.3);
+    color: $primary-titles-color;
+    text-transform: uppercase;
+  }
+  .title {
+    font-family: Open Sans;
+    @include font(700, 28px, 1.17, 0.05em);
+    color: $primary-titles-color;
+  }
+  .text {
+    font-family: Open Sans;
+    @include font(400, 16px, 1.62, 0.02em);
+    color: $primary-text-color;
+  }
+  .description {
+    font-family: Open Sans;
+    @include font(400, 14px, 1.86, 0.02em);
+    color: $primary-text-color;
+  }
+  @import "../button";
+}

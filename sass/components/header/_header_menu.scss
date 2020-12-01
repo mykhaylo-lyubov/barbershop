@@ -1,0 +1,48 @@
+.header-menu-list,
+.header-menu-tel {
+  font-family: "Open Sans";
+  @include font(600, 18px, 1.38, 0.1em);
+  color: $primary-titles-color;
+}
+
+.header-menu-list {
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: $primary-titles-color;
+  }
+}
+
+.header-menu-tel {
+  text-decoration: none;
+}
+
+.header-menu-book-button {
+  font-family: "Open Sans";
+  @include font(400, 12px, 1.33, 0.09em);
+  color: $primary-titles-color;
+
+  text-transform: uppercase;
+
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border-radius: 25px;
+  border: 1px solid $button-border-color;
+
+  background-color: transparent;
+}
+
+.header-social-list {
+  font-family: "Open Sans";
+  @include font(600, 14px, 1.35, 0.2em);
+
+  list-style: none;
+}
+
+.header-social-link {
+  text-decoration: none;
+  color: $primary-titles-color;
+}

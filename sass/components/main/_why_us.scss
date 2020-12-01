@@ -1,0 +1,33 @@
+.why-us .heading {
+  font-family: Open Sans;
+  @include font(600, 11px, 1.33, 0.1em);
+  color: $primary-titles-color;
+}
+
+.why-us .title {
+  font-family: Open Sans;
+  @include font(700, 42px, 1.16, 0.05em);
+  color: $primary-titles-color;
+}
+
+.why-us .text {
+  font-family: Open Sans;
+  @include font(400, 18px, 1.66, 0.02em);
+  color: $primary-text-color;
+}
+
+.why-us .list {
+  list-style: none;
+}
+
+.why-us .item-heading {
+  font-family: Open Sans;
+  @include font(700, 42px, 1.35, 0.05em);
+  color: $primary-titles-color;
+}
+
+.why-us .description {
+  font-family: Open Sans;
+  @include font(600, 11px, 1.38, 0em);
+  color: $primary-titles-color;
+}
