@@ -2,12 +2,17 @@
   font-family: Open Sans;
   @include font(600, 11px, 1.33, 0.1em);
   color: $services-list-text-color;
+
+  margin: 0;
 }
 
 .service .title {
   font-family: Open Sans;
   @include font(700, 42px, 1.16, 0.05em);
-  color: black;
+  color: $h1-h2-title-color;
+
+  margin-top: 20px;
+  margin-bottom: 44px;
 }
 
 .service .list {
@@ -20,4 +25,47 @@
 
 .service {
   @import "../button";
+  .button {
+    margin-top: 50px;
+    display: inline-block;
+    color: $h1-h2-title-color;
+    width: auto;
+  }
+}
+
+.service .container {
+  background-image: url(../../../images/service/img.jpg),
+    url(../../../images/service/Bg.jpg);
+  background-blend-mode: overlay;
+
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.service .table-container {
+  padding: 30px 30px;
+}
+
+.service .icon {
+  fill: $services-list-text-color;
+  margin-bottom: 4px;
+  margin-right: 20px;
+}
+
+.service .button-container {
+  text-align: center;
+}
+
+.service tr {
+  display: block;
+  margin-top: 20px;
+}
+
+.service table td {
+  border: 1px solid red;
+}
+
+.service table td:nth-child(2n) {
+  width: 100px;
+  text-align: right;
 }
